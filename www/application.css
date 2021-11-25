@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background: url(assets/dockee.png) center;
+
+    font-family: 'Arial';
+    line-height: 2.5;
+    color: rgb(255,255,255);
+    padding: 40px
+    text-align: center;
+  }
+
+  main {
+    background: #00000054;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .logo, .band-name, .headline {
+    margin: 0;
+    text-align: center;
+  }
+
+  .concerts {
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+  }
+ .works {
+    padding: 10px 200px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #days {
+    text-align: center;
+    padding-left: 150px;
+  }
